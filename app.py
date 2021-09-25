@@ -23,7 +23,8 @@ def hello():
     
    return "hello How Are YOu"
 
-def queryDB():
-    return "value"
+
+#def queryDB():
+ #   return "value"
     
    
