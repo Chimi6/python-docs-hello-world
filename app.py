@@ -22,6 +22,6 @@ def hello():
    # cursor.execute(query)
    # records = cursor.fetchall()
    # cnx.close()
-   return "Hello, 3!"
+    return "Hello, 3!"
     
    
