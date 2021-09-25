@@ -24,6 +24,6 @@ def hello():
    # cursor.execute(query)
    # records = cursor.fetchall()
    # cnx.close()
-    return "Hello, hello!"
+   return "Hello, hello!"
     
    
