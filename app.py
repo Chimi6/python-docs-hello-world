@@ -5,6 +5,7 @@ import mysql.connector
 def hello():
     
     print("ding")
+    body = queryDB()
     #try:
     #cnx = mysql.connector.connect(user='internadmin@internproject', password='Fullmetal1',
 #                                     host='internproject.mysql.database.azure.com',
@@ -20,6 +21,9 @@ def hello():
    # records = cursor.fetchall()
    # cnx.close()
     
-   return "Hello, hello!"
+   return body
+
+def queryDB()
+    return "value"
     
    
