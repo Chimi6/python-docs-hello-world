@@ -8,13 +8,13 @@ def hello():
     
 
 
-    return "testing on"
-    try:
-        cnx = mysql.connector.connect(user='internadmin@internproject', password='Fullmetal1', host='internproject.mysql.database.azure.com', database='interns')
-        cnx.close()
-        return "connected"
-    except Exception as e:
-        return "failed
+#     return "testing on"
+#     try:
+#         cnx = mysql.connector.connect(user='internadmin@internproject', password='Fullmetal1', host='internproject.mysql.database.azure.com', database='interns')
+#         cnx.close()
+#         return "connected"
+#     except Exception as e:
+#         return "failed
 
    # cursor = cnx.cursor()
     
