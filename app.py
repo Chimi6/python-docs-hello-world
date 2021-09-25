@@ -11,10 +11,10 @@ def hello():
     print("ding")
     try:
         cnx = mysql.connector.connect(user='internadmin@internproject', password='Fullmetal1', host='internproject.mysql.database.azure.com', database='interns')
-        print("connected")
+        cnx.close()
+        return "connected"
     except Exception as e:
-        print("failed to connect")
-        print(e)
+        return "failed
 
    # cursor = cnx.cursor()
     
