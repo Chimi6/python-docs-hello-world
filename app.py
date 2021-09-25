@@ -23,7 +23,7 @@ def hello():
     
    return body
 
-def queryDB()
+def queryDB():
     return "value"
     
    
