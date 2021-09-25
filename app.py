@@ -8,7 +8,7 @@ def hello():
     
 
 
-    print("ding")
+    return "testing on"
     try:
         cnx = mysql.connector.connect(user='internadmin@internproject', password='Fullmetal1', host='internproject.mysql.database.azure.com', database='interns')
         cnx.close()
