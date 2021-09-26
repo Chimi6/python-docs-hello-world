@@ -7,4 +7,6 @@ def hello():
 
 
 def returnValue():
-   return "my new message"
+   a = ["Big", "weenie",]
+   flat_list = [item for sublist in a for item in sublist]
+   return flat_list]
